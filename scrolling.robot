@@ -17,6 +17,8 @@ Start TestCase
     Sleep                 2
     Scroll To             ${None}       bottom      left       auto
     Sleep                 2
+    Scroll To Element     css=.gf-flags-wpr
+    Sleep                 2
 
 Finish TestCase
     Close Browser
