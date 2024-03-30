@@ -16,10 +16,17 @@ git clone <repository_url>
 ```
 
 2. **Install Dependencies**: Ensure you have Python and Robot Framework installed on your machine. Additionally, install any necessary browser drivers (e.g., ChromeDriver) as per your testing requirements.
+   If you do not have it:
+   - **Python**: If you haven't already, install Python on your machine. You can download it from the official Python website: [Python Downloads](https://www.python.org/downloads/).
+   - **Robot Framework**: Install Robot Framework using pip:
+      ```
+      pip install robotframework
+      ```
+    - **PyCharm** (Optional): PyCharm is a popular Integrated Development Environment (IDE) for Python. You can download and install it from the official JetBrains website: [PyCharm Downloads](https://www.jetbrains.com/pycharm/download/).
 
-3. **Explore Test Cases**: Navigate to the tests directory to explore the available test cases. Each test case file (*.robot) contains examples focusing on specific functionalities of the Browser Library.
+4. **Explore Test Cases**: Navigate to the tests directory to explore the available test cases. Each test case file (*.robot) contains examples focusing on specific functionalities of the Browser Library.
 
-4. **Execute Test Cases**: Run the test cases using the Robot Framework command-line tool. For example:
+5. **Execute Test Cases**: Run the test cases using the Robot Framework command-line tool. For example:
 
 ```
 robot <test_case_file.robot>
