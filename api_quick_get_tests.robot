@@ -15,10 +15,10 @@ Quick Get A JSON Body Test
 #      Should Be Equal As Strings    1  ${response.json()}[id]
       Log To Console    >>>>>>>>>${response}<<<<<<<<<<
 
-#vypíše 200
+#response.ok
       Log To Console    >>>>>>>>>${response.ok}<<<<<<<<<<
 
-#např když se potřebuji autorizovat:
+#response.headers
       Log To Console    >>>>>>>>>${response.headers}<<<<<<<<<<
 
 #reason je OK a status_code 200
