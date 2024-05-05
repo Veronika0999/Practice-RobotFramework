@@ -24,15 +24,15 @@ git clone <repository_url>
       ```
     - **PyCharm** (Optional): PyCharm is a popular Integrated Development Environment (IDE) for Python. You can download and install it from the official JetBrains website: [PyCharm Downloads](https://www.jetbrains.com/pycharm/download/).
 
-4. **Explore Test Cases**: Navigate to the tests directory to explore the available test cases. Each test case file (*.robot) contains examples focusing on specific functionalities of the Browser Library.
+3. **Explore Test Cases**: Navigate to the tests directory to explore the available test cases. Each test case file (*.robot) contains examples focusing on specific functionalities of the Browser Library.
 
-5. **Execute Test Cases**: Run the test cases using the Robot Framework command-line tool. For example:
+4. **Execute Test Cases**: Run the test cases using the Robot Framework command-line tool. For example:
 
 ```
 robot <test_case_file.robot>
 ```
 
-6. **Experiment and Learn**: Modify existing test cases or create new ones to experiment with different methods and scenarios. Use the official Robot Framework Browser Library documentation as a reference guide.
+5. **Experiment and Learn**: Modify existing test cases or create new ones to experiment with different methods and scenarios. Use the official Robot Framework Browser Library documentation as a reference guide.
 
 ## Contributing
 Contributions to this repository are welcome! If you have additional test cases, improvements, or suggestions, feel free to open an issue or submit a pull request.
